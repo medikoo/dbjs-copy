@@ -17,6 +17,7 @@
     "dbjs": "git://github.com/medikoo/dbjs.git"
   },
   "devDependencies": {
+    "dbjs-ext": "git://github.com/medikoo/dbjs-ext.git",
     "tad": "0.2.x",
     "xlint": "~0.2.1",
     "xlint-jslint-medikoo": "~0.1.1"
