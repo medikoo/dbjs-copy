@@ -21,7 +21,7 @@ db2.prototype.getOwnDescriptor('foo').type; //db2.String
 
 ```
 
-By default only given object (with its properties) is copied, but its prototype chain, types of properties, or values of properties, if it's missing is not recreated with additional copying. To assure that pass additionally `recursive: true` option;
+By default only given object (with its properties) is copied, but its prototype chain, types of properties, or values of properties, if they're missing they're not recreated with additional copying. To assure that pass additionally `recursive: true` option;
 
 ```javascript
 dbjsCopy(db1.ObjectExtension, db2, { recursive: true });
