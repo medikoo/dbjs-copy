@@ -16,8 +16,8 @@ db1.Object.extend('ObjectExtension', {
 dbjsCopy(db1.ObjectExtension, db2);
 
 db2.ObjectExtension.__id__; // 'ObjectExtension'
-db2.prototype.foo; // 'bar'
-db2.prototype.getOwnDescriptor('foo').type; //db2.String
+db2.ObjectExtension.prototype.foo; // 'bar'
+db2.ObjectExtension.prototype.getOwnDescriptor('foo').type; //db2.String
 
 ```
 
