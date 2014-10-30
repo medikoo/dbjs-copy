@@ -3,7 +3,7 @@
 
 ### Usage
 
-```javasccript
+```javascript
 var Database = require('dbjs');
 var dbjsCopy = require('dbjs-copy');
 var db1 = new Database();
