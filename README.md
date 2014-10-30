@@ -1,5 +1,5 @@
 # dbjs-copy
-## Copy objects definitions among [dbjs](https://github.com/medikoo/dbjs) instances
+## Copy object definitions among [dbjs](https://github.com/medikoo/dbjs) instances
 
 ### Installation
 
